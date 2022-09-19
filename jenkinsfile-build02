@@ -1,9 +1,9 @@
 node {
-     stage('----- Clone repository -----') {
+     stage('----- 테스트 Clone repository -----') {
          checkout scm
      }
 
-     stage('----- Build image -----') {
+     stage('----- 테스트 Build image -----') {
         sh 'docker build -t test/1.0 .'
      }
 }
