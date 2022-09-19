@@ -1,1 +1,9 @@
- docker build -t nsc:hjh_docker_api -f Microgateway_DockerFile .
+node {
+     stage('----- Clone repository -----') {
+         checkout scm
+     }
+
+     stage('----- Build image -----') {
+         app = docker.build("hanjihye14/heaven")
+     }
+}
