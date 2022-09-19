@@ -4,6 +4,6 @@ node {
      }
 
      stage('----- Build image -----') {
-         app = docker.build("test/1.0")
+        sh 'docker build -t test/1.0 .'
      }
 }
