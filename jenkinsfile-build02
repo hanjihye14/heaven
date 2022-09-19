@@ -4,6 +4,6 @@ node {
      }
 
      stage('----- Build image -----') {
-         app = docker.build("hanjihye14/heaven")
+         app = docker.build("test/1.0")
      }
 }
