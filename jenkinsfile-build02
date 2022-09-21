@@ -4,6 +4,6 @@ node {
      }
 
      stage('----- 테스트 Build image -----') {
-         sh 'docker build -t test:image .'
+         sh 'docker build -t test:image /var/lib/jenkins/workspace/test20220921'
      }
 }
