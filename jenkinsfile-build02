@@ -4,6 +4,6 @@ node {
      }
 
      stage('----- 테스트 Build image -----') {
-         sh 'docker build -t test_image . '
+         sh 'docker build -t test_image'
      }
 }
