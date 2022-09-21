@@ -4,6 +4,6 @@ node {
      }
 
      stage('----- 테스트 Build image -----') {
-         app = docker.build("jenkins-docker-pipeline/my-image")
+         sh 'docker build -t test_image /var/lib/jenkins/workspace/test20220921'
      }
 }
