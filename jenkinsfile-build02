@@ -4,6 +4,6 @@ node {
      }
 
      stage('----- 테스트 Build image -----') {
-         sh 'docker build -t nsc:hjh_docker -f Dockerfile .'
+         sh 'docker build -t nsc:hjh_docker'
      }
 }
