@@ -1,1 +1,1 @@
-mkdir /engn001/test/logs
+RUN mkdir /engn001/test/logs
