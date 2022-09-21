@@ -4,6 +4,6 @@ node {
      }
 
      stage('----- 테스트 Build image -----') {
-         sh 'docker build -tag testzz:1.0'
+         sh 'docker build -tag testzz:1.0 .'
      }
 }
