@@ -1,1 +1,1 @@
-RUN mkdir /engn001/test/logs
+FROM ubuntu:14.04
